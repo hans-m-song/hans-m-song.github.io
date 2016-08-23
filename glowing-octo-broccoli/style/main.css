@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #000000;
+}
+
+/* header and footer style */
+
+header,
+footer {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+header h1,
+footer p {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav,
+footer li {
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* header and footer link styles */
+
+header a, 
+footer a {
+    text-decoration: none;
+    padding: 0 20px;
+    margin: 0;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+}
+
+header a:visited, 
+footer a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover, 
+footer a:hover, 
+header a:active, 
+footer a:active {
+    text-decoration: none;
+    color: #337EFF;
+    /* idk if i want this tbh fam
+    box-shadow: 0 0 2px 2px #337EFF,
+          inset 0 0 2px 2px #337EFF;
+    */
+}
+
+/* centerpiece style */
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("../media/jumbo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    box-shadow: 0 0 16px 16px #000000 inset;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h7 {
+    color: #ffffff;
+    text-shadow: 0 0 10px #cccccc;
+    margin: 0 0 20px;
+}
+
+/* content styles */
+
+section .row img {
+    margin: 0 0 30px;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0 0 16px 16px #000000 inset;
+    position: relative;
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.caption {
+    top: 0%;
+    left: 23%;
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 0 0 20px #000000;
+}
