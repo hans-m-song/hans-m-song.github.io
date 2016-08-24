@@ -115,3 +115,29 @@ section .row img {
     color: #ffffff;
     text-shadow: 0 0 20px #000000;
 }
+
+.under {
+    top: 20%;
+    left: 23%;
+    width: 55%;
+    height: 60%;
+    overflow: hidden;
+    position: absolute;
+    color: #ffffff;
+}
+
+#dank {
+    overflow-y: scroll;
+}
+
+.front {
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    transition: all .5s ease-out;
+}
+
+.col-sm-4:hover > .front {
+    transform: translateY(-100%) rotate(2deg);
+}
