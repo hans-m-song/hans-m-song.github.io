@@ -1,3 +1,45 @@
-jumbotron {
-    background-image: "../media/jumbo.jpg";
+body {
+    background-color: #EDEDED;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    color: #716F6F;
+    line-height: 1;
+}
+.ed {
+    line-height: 0.01;
+}
+.list-group-item:hover {
+    background-color: #F1F1F1;
+}
+li {
+    line-height: 2.3;
+}
+.title {
+    padding: 10px;
+    background-color: rgba(159, 159, 159, 0.17);
+    border-radius: 10px;
+}
+.affix {
+    z-index: 9999;
+    width: 14.7%;
+}
+.nav {
+    margin-top: 50px;
+}
+nav ul li a:hover {
+    color: black;
+}
+nav ul li a {
+    color: black;
+    background-color: #D7D7D7;
+}
+nav ul li {
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+}
+.sub-ed {
+    margin-left:20px;
+    color: grey;
 }
