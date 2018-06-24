@@ -43,3 +43,13 @@ nav ul li {
     margin-left:20px;
     color: grey;
 }
+.img {
+    margin: 5px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    color: rgb(216, 216, 216);
+}
+#links {
+    text-align: center;
+}
