@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto+Mono');
+
+@width: 80vw;
+@height: 100vh;
+@title-font: 'Merriweather', serif;
+@content-font: 'Open Sans', sans-serif;
+
+.header {
+    font-size: 1.5em;
+    font-family: @title-font;
+}
+
+.title {
+    font-size: 1.2em;
+}
+
+.pair {
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-between;
+    .period-container {
+        color: white;
+        background-color: #303030;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+}
+
+.subtitle {
+    font-size: 0.95em;
+    font-style: oblique;
+    color: #303030;
+}
+
+.period {
+    font-size: 0.9em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.location {
+
+}
+
+.description {
+    font-family: @content-font;
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+.App {
+    width: @width;
+    margin: auto;
+    padding: 15px;
+    background-color: #f1f1f1
+}
+
+.profile-container {
+    margin: auto;
+}
+
+.education-container {
+
+}
+
+.skills-container {
+
+}
+
+.other-container {
+    .row {
+        .other-title {
+            width: 10em;
+        }
+        .other-description {
+
+        }
+    }
+}

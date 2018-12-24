@@ -4,7 +4,7 @@ import { profile } from '../Info'
 export class Profile extends Component {
     render() {
         return (
-            <div className="about-container">
+            <div className="profile-container">
                 <div className="row">
                     <div className="profile-image-container">
                         <img 
@@ -17,7 +17,7 @@ export class Profile extends Component {
 
                 <div className="row">
                     <div className="profile-details-container">
-                        <p className="profile-title">About Me</p>
+                        <p className="profile-title title">About Me</p>
                         <p className="profile-name">{profile.name}</p>
                         <p className="profile-bio">{profile.bio}</p>
                         <p className="profile-resume">{profile.resume}</p>

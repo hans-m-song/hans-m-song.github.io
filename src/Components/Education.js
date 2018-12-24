@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 import { education } from '../Info'
+import { Period } from './Common'
 
 export class Education extends Component {
     createElements = () => {
         return education.map((item) => {
             return (
                 <div className="row" key={item.location}>
-                    <p className="education-location location">{item.location}</p>
-                    <p className="education-certification certification">{item.certification}</p>
-                    <p className="education-period period">{item.period}</p>
+                    <p className="education-location location title">{item.location}</p>
+                    <div className="pair">
+                        <span className="education-certification certification subtitle">{item.certification}</span>
+                        <Period start={item.period[0]} end={item.period[1]} />
+                    </div>
                 </div>
             );
         });
@@ -16,7 +19,8 @@ export class Education extends Component {
 
     render() {
         return (
-            <div className="skills-container">
+            <div className="education-container">
+                <p className="header">Education</p>
                 {this.createElements()}
             </div>
         );

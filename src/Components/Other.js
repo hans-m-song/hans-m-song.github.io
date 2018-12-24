@@ -5,9 +5,9 @@ export class Other extends Component {
     createElements = () => {
         return other.map((item) => {
             return (
-                <div className="row" key={item.title}>
-                    <p className="other-title title">{item.title}</p>
-                    <p className="other-description description">{item.description}</p>
+                <div className="pair" key={item.title}>
+                    <span className="other-title subtitle">{item.title}</span>
+                    <span className="other-description description">{item.description}</span>
                 </div>
             );
         });
@@ -16,6 +16,7 @@ export class Other extends Component {
     render() {
         return (
             <div className="other-container">
+                <p className="header">Other</p>
                 {this.createElements()}
             </div>
         );
