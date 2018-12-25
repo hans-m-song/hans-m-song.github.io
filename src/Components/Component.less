@@ -1,23 +1,50 @@
-.profile-container {
-    display: flex;
-    justify-content: center;
-}
+body {
 
-.education-container {
+    .App {
 
-}
+        .profile-container {
 
-.skills-container {
-
-}
-
-.other-container {
-    .pair {
-        .other-title {
-            min-width: 8em;
+            .row {
+                display: flex;
+    
+                .profile-image-container {
+                    padding-right: 1.5em;
+    
+                    img {
+                        min-height: 115px;
+                        min-width: 115px;
+                        height: 115px;
+                        width:115px;
+                        border-radius: 50%;
+                    }
+                }
+    
+                .profile-details-container {
+                    width: 60vw;
+                }
+            }
         }
-        .other-description {
-            flex-grow: 1;
+        
+        .education-container {
+        
+        }
+        
+        .skills-container {
+        
+        }
+        
+        .other-container {
+
+            .pair {
+
+                .other-title {
+                    min-width: 8em;
+                }
+
+                .other-description {
+                    flex-grow: 1;
+                }
+            }
         }
     }
 }

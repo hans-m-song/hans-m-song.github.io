@@ -5,7 +5,7 @@ export class Other extends Component {
     createElements = () => {
         return other.map((item) => {
             return (
-                <div className="pair" key={item.title}>
+                <div className="pair row" key={item.title}>
                     <div className="other-title subtitle">{item.title}</div>
                     <div className="other-description description">{item.description}</div>
                 </div>
