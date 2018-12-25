@@ -6,8 +6,8 @@ export class Other extends Component {
         return other.map((item) => {
             return (
                 <div className="pair" key={item.title}>
-                    <span className="other-title subtitle">{item.title}</span>
-                    <span className="other-description description">{item.description}</span>
+                    <div className="other-title subtitle">{item.title}</div>
+                    <div className="other-description description">{item.description}</div>
                 </div>
             );
         });

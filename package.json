@@ -9,7 +9,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "compile": "lessc src/App.less src/App.css",
+    "compile": "lessc src/App.less src/App.css & lessc src/Components/Component.less src/Components/Component.css",
     "start": "npm run compile & react-scripts start",
     "build": "npm run compile & react-scripts build",
     "test": "react-scripts test",

@@ -7,7 +7,7 @@ export class Education extends Component {
         return education.map((item) => {
             return (
                 <div className="row" key={item.location}>
-                    <p className="education-location location title">{item.location}</p>
+                    <p className="education-location title">{item.location}</p>
                     <div className="pair">
                         <span className="education-certification certification subtitle">{item.certification}</span>
                         <Period start={item.period[0]} end={item.period[1]} />
