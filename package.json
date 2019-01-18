@@ -2,18 +2,23 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "less": "^3.9.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
-  },
+  "homepage": "http://hans-m-song.github.io/",
   "scripts": {
     "compile": "lessc src/App.less src/App.css & lessc src/Components/Component.less src/Components/Component.css",
     "start": "npm run compile & react-scripts start",
     "build": "npm run compile & react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^2.1.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "less": "^3.9.0"
   },
   "eslintConfig": {
     "extends": "react-app"

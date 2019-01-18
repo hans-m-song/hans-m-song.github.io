@@ -30,21 +30,27 @@ export const skills = [
     {
         location: "",
         title: "",
-        period: "",
+        period: [],
         description: "",
     },
     */
-   {
+    {
+        location: "Weko Health",
+        title: "Intern",
+        period: [ "2018 Nov", "2019 Jan"],
+        description: "Developed a graphical map representation of Australias PHN network (Leaflet) and a revenue calculator based on projected profits from utilizing WeKo services compatible with Wordpress",
+    },
+    {
         location: "Sortal",
         title: "Intern",
         period: [ "2018 Nov", "Present" ],
-        description: "Working to implement a modular TensorFlow service, capable of dynamically loading and caching pre-trained models in TypeScript and integrating into a microservice architecture.",
+        description: "Developed multiple modules to integrate into a microservice architecture. These include:\n\tA modular TensorFlow service (TFJS), capable of dynamically loading and caching pre-trained models.\n\tA module utilizing Google Vision's API.\n\tA module to analyze and apply custom classifications based on existing labels.",
     },
     {
         location: "BlockNet",
         title: "Developer",
         period: [ "2018 Jul", "2018 Nov" ],
-        description: "A server-less forum application based on decentralised storage and the Block chain for peer to peer communication. Built on IPFS for redundant storage and Ethereum for security.",
+        description: "A server-less forum web application based on decentralised storage and the Block chain for peer to peer communication. Built on IPFS for redundant storage and Ethereum for security.",
     },
     {
         location: "L-Player",
@@ -56,7 +62,7 @@ export const skills = [
         location: "Boeing Glider",
         title: "Manufacturing and 3D Modelling",
         period: [ "2017 Jul", "2018 Nov" ],
-        description: "Collaborated with a team to design, simulate and manufacture a low altitude glider in PTC Creo and ANSYS. Additionally, programmed and manufactured a flight data recorder to measure flight metrics.",
+        description: "Collaborated with a team to design, simulate and manufacture a low altitude glider in PTC Creo and ANSYS. Additionally, programmed and manufactured a flight data recorder to measure flight metrics with personally modelled and 3D printed enclosure, wings and tail.",
     },
     {
         location: "Backhoe Excavator",

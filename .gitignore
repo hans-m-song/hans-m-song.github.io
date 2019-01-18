@@ -1,4 +1,4 @@
 /node_modules
 /media
-/public
+/build
 *.css
