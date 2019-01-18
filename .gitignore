@@ -2,3 +2,4 @@
 /media
 /build
 *.css
+package-lock.json
