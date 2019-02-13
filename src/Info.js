@@ -85,6 +85,10 @@ export const other = [
         description: "",
     },
     */
+    {
+        title: "3D printing\nand modeling",
+        description: "Familiar with CAD and constrained modelling of dimensionally accurate models for hand-built 3D printer",
+    },
    {
         title: "Electrical",
         description: "Circuit analysis, circuit design, and soldering",
