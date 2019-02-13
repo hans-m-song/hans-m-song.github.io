@@ -1,5 +1,5 @@
-/node_modules
-/media
-/build
+node_modules
+media
+build
 *.css
 package-lock.json
