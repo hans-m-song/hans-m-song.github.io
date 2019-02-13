@@ -35,16 +35,22 @@ export const skills = [
     },
     */
     {
-        location: "Weko Health",
-        title: "Intern",
-        period: [ "2018 Nov", "2019 Jan"],
-        description: "Developed a graphical map representation of Australias PHN network (Leaflet) and a revenue calculator based on projected profits from utilizing WeKo services compatible with Wordpress",
+        location: "Jacaranda Finance",
+        title: "Junior Data Mining Analyst",
+        period: [ "2019 Jan", "Present"],
+        description: "Writing bank interfacing modules to aggregate data",
     },
     {
         location: "Sortal",
         title: "Intern",
         period: [ "2018 Nov", "Present" ],
         description: "Developed multiple modules to integrate into a microservice architecture. These include:\n\tA modular TensorFlow service (TFJS), capable of dynamically loading and caching pre-trained models.\n\tA module utilizing Google Vision's API.\n\tA module to analyze and apply custom classifications based on existing labels.",
+    },
+    {
+        location: "Weko Health",
+        title: "Intern",
+        period: [ "2018 Nov", "2019 Jan"],
+        description: "Developed a graphical map representation of Australias PHN network (Leaflet) and a revenue calculator based on projected profits from utilizing WeKo services compatible with Wordpress",
     },
     {
         location: "BlockNet",
