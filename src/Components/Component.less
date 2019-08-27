@@ -1,3 +1,5 @@
+@import '../App.less';
+
 body {
 
     .App {
@@ -24,9 +26,31 @@ body {
                 }
             }
         }
+
+        .skill-list {
+
+            margin: 0.4em 0 0.4em 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            .skill {
+                margin: 0.1em;
+                padding: 0 0.1em 0 0.1em;
+                color: white;
+                font-size: 0.9em;
+                background-color: @grey1;
+                border: 3px solid @grey1;
+                border-radius: 5px;
+            }
+
+        }
         
         .education-container {
         
+        }
+
+        .experience-container {
+
         }
         
         .skills-container {
@@ -35,8 +59,7 @@ body {
         
         .other-container {
 
-            .pair {
-                display: flex;
+            .flex {
 
                 .other-title {
                     min-width: 8em;

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import { education } from '../Info'
-import { Period } from './Common'
+import React, { Component } from 'react';
+import { education } from '../Info';
+import { Period } from './Common';
 
 export class Education extends Component {
     createElements = () => {
@@ -8,7 +8,7 @@ export class Education extends Component {
             return (
                 <div className="row" key={item.location}>
                     <p className="education-location title">{item.location}</p>
-                    <div className="pair">
+                    <div className="flex">
                         <span className="education-certification certification subtitle">{item.certification}</span>
                         <Period start={item.period[0]} end={item.period[1]} />
                     </div>

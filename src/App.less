@@ -9,6 +9,7 @@
 @white1: #e9e9e9;
 @white2: rgb(221, 221, 221);
 @grey0: #303030;
+@grey1: #474747;
 
 body {
     background-color: rgb(68, 68, 68);
@@ -52,10 +53,12 @@ body {
                 margin: 0.5em 0 0.5em 0;
             }
             
-            .pair {
+            .flex {
                 font-size: 0.95em;
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
+                align-items: center;
                 padding-left: 2em;
             
                 .period-container {
@@ -63,6 +66,7 @@ body {
                     background-color: @grey0;
                     border: 3px solid @grey0;
                     border-radius: 5px;
+                    margin: 0.1em;
             
                     .period {
                         font-size: 0.9em;

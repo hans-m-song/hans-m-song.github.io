@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://hans-m-song.github.io/",
   "scripts": {
+    "compile:watch": "nodemon -e less --exec npm run compile",
     "compile": "node_modules/.bin/lessc src/App.less src/App.css & lessc src/Components/Component.less src/Components/Component.css",
     "start": "npm run compile & react-scripts start",
     "build": "npm run compile & react-scripts build",
@@ -18,7 +19,8 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "less": "^3.9.0"
+    "less": "^3.9.0",
+    "nodemon": "^1.19.1"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { profile } from '../Info'
+import React, { Component } from 'react';
+import { profile } from '../Info';
 import mugshot from '../media/mugshot.jpg';
 
 export class Profile extends Component {

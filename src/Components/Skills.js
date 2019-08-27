@@ -1,18 +1,27 @@
-import React, { Component } from 'react'
-import { skills } from '../Info'
-import { Period } from './Common'
+import React, { Component } from 'react';
+import { skills } from '../Info';
+import { Period } from './Common';
+
 
 export class Skills extends Component {
+
+    createSkillsList = (item) => {
+        return (
+            <div className="skill-list">
+                {item.list.map(skill => <span className="skill">{skill}</span>)}
+            </div>
+        );
+    }
+
     createElements = () => {
-        return skills.map((item) => {
+        return skills.map(item => {
             return (
-                <div className="row" key={item.location}>
-                    <p className="skills-location title">{item.location}</p>
-                    <div className="pair">
-                        <span className="skills-title subtitle">{item.title}</span>
-                        <Period start={item.period[0]} end={item.period[1]} />
+                <div className="row" key={item.title}>
+                    <div className="flex">
+                        <p className="skills-title title">{item.title}</p>
+                        {this.createSkillsList(item)}
                     </div>
-                    <p className="skills-description description">{item.description}</p>
+                    <p className="description">{item.description}</p>
                 </div>
             );
         });
@@ -25,5 +34,5 @@ export class Skills extends Component {
                 {this.createElements()}
             </div>
         );
-    }
+    } 
 }
