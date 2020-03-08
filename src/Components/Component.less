@@ -1,92 +1,82 @@
-@import '../App.less';
+@import "../App.less";
 
 body {
+  .App {
+    .profile-container {
+      .row {
+        display: flex;
 
-    .App {
+        .profile-image-container {
+          padding-right: 1.5em;
 
-        .profile-container {
-
-            .row {
-                display: flex;
-    
-                .profile-image-container {
-                    padding-right: 1.5em;
-    
-                    img {
-                        min-height: 115px;
-                        min-width: 115px;
-                        height: 115px;
-                        width:115px;
-                        border-radius: 50%;
-                    }
-                }
-    
-                .profile-details-container {
-                    width: 60vw;
-                }
-            }
+          img {
+            min-height: 115px;
+            min-width: 115px;
+            height: 115px;
+            width: 115px;
+            border-radius: 50%;
+          }
         }
 
-        .skill-list {
-
-            margin: 0.4em 0 0.4em 0;
-            display: flex;
-            flex-wrap: wrap;
-
-            .skill {
-                margin: 0.1em;
-                padding: 0 0.1em 0 0.1em;
-                color: white;
-                font-size: 0.9em;
-                background-color: @grey1;
-                border: 3px solid @grey1;
-                border-radius: 5px;
-            }
-
+        .profile-details-container {
+          width: 60vw;
         }
-        
-        .education-container {
-        
-        }
-
-        .experience-container {
-
-        }
-        
-        .skills-container {
-        
-        }
-        
-        .other-container {
-
-            .flex {
-
-                .other-title {
-                    min-width: 8em;
-                }
-
-                .other-description {
-                    flex-grow: 1;
-                    margin: 0;
-                }
-            }
-        }
-
-        .footer-container {
-            border: 0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-
-            &:hover {
-                background-color: #f1f1f1;
-            }
-
-            img {
-                padding: 1em;
-                height: 3em;
-            }
-        }
+      }
     }
+
+    .skill-list {
+      margin: 0.4em 0 0.4em 0;
+      display: flex;
+      flex-wrap: wrap;
+
+      .skill {
+        margin: 0.1em;
+        padding: 0 0.1em 0 0.1em;
+        color: white;
+        font-size: 0.9em;
+        background-color: @grey1;
+        border: 3px solid @grey1;
+        border-radius: 5px;
+      }
+    }
+
+    .education-container {
+    }
+
+    .experience-container {
+    }
+
+    .skills-container {
+    }
+
+    .other-container {
+      .flex {
+        .other-title {
+          min-width: 8em;
+        }
+
+        .other-description {
+          flex-grow: 1;
+          margin: 0;
+        }
+      }
+    }
+
+    .footer-container {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+
+      &:hover {
+        background-color: #f1f1f1;
+      }
+
+      img {
+        padding: 1em;
+        height: 3em;
+      }
+    }
+  }
 }
