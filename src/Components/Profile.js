@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { profile } from '../Info';
-import { SocialMedia } from './SocialMedia';
+import React, {Component} from 'react';
+import {profile} from '../Info';
+import {SocialMedia} from './SocialMedia';
 import mugshot from '../media/mugshot.jpg';
 
 export class Profile extends Component {
@@ -12,7 +12,7 @@ export class Profile extends Component {
           <div className="profile-image-container">
             <img
               className="profile-image"
-              //src={profile.image} 
+              //src={profile.image}
               src={mugshot}
               alt={profile.name}
             />

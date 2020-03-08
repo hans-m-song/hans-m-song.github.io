@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { hobbies } from '../Info';
+import React, {Component} from 'react';
+import {hobbies} from '../Info';
 
 export class Hobbies extends Component {
   createElements = () => {
@@ -7,11 +7,13 @@ export class Hobbies extends Component {
       return (
         <div className="flex row" key={item.title}>
           <div className="hobbies-title subtitle">{item.title}</div>
-          <div className="hobbies-description description">{item.description}</div>
+          <div className="hobbies-description description">
+            {item.description}
+          </div>
         </div>
       );
     });
-  }
+  };
 
   render() {
     return (

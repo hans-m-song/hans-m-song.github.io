@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import { skills } from '../Info';
-
+import React, {Component} from 'react';
+import {skills} from '../Info';
 
 export class Skills extends Component {
-
   createSkillsList = (item) => {
     return (
       <div className="skill-list">
-        {item.list.map(skill => <span className="skill">{skill}</span>)}
+        {item.list.map((skill) => (
+          <span className="skill">{skill}</span>
+        ))}
       </div>
     );
-  }
+  };
 
   createElements = () => {
-    return skills.map(item => {
+    return skills.map((item) => {
       return (
         <div className="row" key={item.title}>
           <div className="flex">
@@ -24,7 +24,7 @@ export class Skills extends Component {
         </div>
       );
     });
-  }
+  };
 
   render() {
     return (
