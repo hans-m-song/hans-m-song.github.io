@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { skills } from '../Info';
-import { Period } from './Common';
 
 
 export class Skills extends Component {

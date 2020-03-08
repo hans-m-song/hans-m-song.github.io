@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { profile } from '../Info';
+import { SocialMedia } from './SocialMedia';
 import mugshot from '../media/mugshot.jpg';
 
 export class Profile extends Component {
@@ -17,10 +18,11 @@ export class Profile extends Component {
             />
           </div>
           <div className="profile-details-container">
-            <p className="profile-name">{profile.name}</p>
-            <p className="profile-bio">{profile.bio}</p>
-            <p className="profile-resume">{profile.resume}</p>
+            <p className="profile-name title">{profile.name}</p>
+            <p className="profile-bio subtitle">{profile.bio}</p>
+            {/* <p className="profile-resume">{profile.resume}</p> */}
           </div>
+          <SocialMedia />
         </div>
       </div>
     );

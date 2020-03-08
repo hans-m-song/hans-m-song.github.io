@@ -5,6 +5,8 @@ body {
     .profile-container {
       .row {
         display: flex;
+        align-items: center;
+        flex-wrap: wrap;
 
         .profile-image-container {
           padding-right: 1.5em;
@@ -19,8 +21,34 @@ body {
         }
 
         .profile-details-container {
-          width: 60vw;
+          flex-grow: 2;
         }
+
+        @media screen and (max-width: 650px) {
+          .profile-details-container {
+            order: 2;
+          }
+        }
+
+        .socialmedia-container {
+          border: 0;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-self: flex-end;
+    
+          img {
+            padding: 1em;
+            height: 3em;
+            width: 3em;
+          }
+
+          img:hover {
+            background-color: @white0;
+          }
+        }
+        
       }
     }
 
@@ -40,42 +68,25 @@ body {
       }
     }
 
-    .education-container {
-    }
+    // .education-container {
+    // }
 
-    .experience-container {
-    }
+    // .experience-container {
+    // }
 
-    .skills-container {
-    }
+    // .skills-container {
+    // }
 
-    .other-container {
+    .hobbies-container {
       .flex {
-        .other-title {
+        .hobbies-title {
           min-width: 8em;
         }
 
-        .other-description {
+        .hobbies-description {
           flex-grow: 1;
           margin: 0;
         }
-      }
-    }
-
-    .footer-container {
-      border: 0;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-
-      &:hover {
-        background-color: #f1f1f1;
-      }
-
-      img {
-        padding: 1em;
-        height: 3em;
       }
     }
   }

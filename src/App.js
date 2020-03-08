@@ -6,8 +6,7 @@ import { Profile } from './Components/Profile';
 import { Education } from './Components/Education';
 import { Experience } from './Components/Experience';
 import { Skills } from './Components/Skills';
-import { Other } from './Components/Other';
-import { Footer } from './Components/Footer';
+import { Hobbies } from './Components/Hobbies';
 
 class App extends Component {
   render() {
@@ -17,8 +16,7 @@ class App extends Component {
         <Education />
         <Skills />
         <Experience />
-        <Other />
-        <Footer />
+        <Hobbies />
       </div>
     );
   }

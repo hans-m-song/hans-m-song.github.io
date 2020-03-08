@@ -1,6 +1,6 @@
 export const profile = {
   name: "Hans Song",
-  bio: "4th year studying Software Engineering at the University of Queensland",
+  bio: "Final year studying Software Engineering at the University of Queensland",
   image: "",
   resume: "",
 };
@@ -33,17 +33,17 @@ export const skills = [
   // },
   {
     title: "Software Development",
-    description: "rience in OOP and imperative languages as well as standard website development. Minor experience with embeded development on the ATmega238.",
-    list: ["Python", "Java", "C", "Assembly", "JavaScript/TypeScript", "HTML/CSS", "(My)SQL", "MatLab"],
+    description: "Experience in OOP, imperative, and functional programming paradigm. Experience in standard frontend and backend website development. Minor experience with embeded development.",
+    list: ["Python", "Java", "C", "JavaScript/TypeScript", "HTML/CSS", "SQL", "MatLab"],
   },
   {
     title: "Software Libraries",
     description: "Familiar with popular libraries and frameworks.",
-    list: ["JUnit", "React.js", "Puppeteer", "RabbitMQ", "MongoDB", "Jest/Mocha+Chai"],
+    list: ["JUnit", "Express.js", "Node.js", "React.js", "Puppeteer", "RabbitMQ", "MongoDB", "Jest/Mocha+Chai"],
   },
   {
     title: "3D Modelling and Printing",
-    description: "Familiar with CAD and constrained modelling of dimensionally accurate models  for printing on hand-built 3D printer.",
+    description: "Familiar with CAD and constrained modelling of dimensionally accurate models for printing on hand-built 3D printer.",
     list: ["AutoCAD", "Inventor", "Fusion360"],
   },
   {
@@ -55,12 +55,7 @@ export const skills = [
     title: "Machine Learning",
     description: "Some background in supervised and unsupervised training algorithms, image processing, and CNNs.",
     list: ["TensorFlow", "MatLab"],
-  },
-  {
-    title: "OS and Software",
-    description: "Comfortable with most common software for Windows and Linux CLI.",
-    list: [],
-  },
+  }
 
 ];
 
@@ -78,7 +73,7 @@ export const experience = [
     location: "Jacaranda Finance",
     title: "Junior Data Mining Analyst",
     period: ["2019 Jan", "Present"],
-    skills: ["Node.js", "Puppeteer"],
+    skills: ["Node.js", "JavaScript", "TypeScript", "Puppeteer", "SQL"],
     description: "Creating and maintaining autonomous data aggregation modules utilizing puppeteer.",
   },
   {
@@ -125,7 +120,7 @@ export const experience = [
   },
 ];
 
-export const other = [
+export const hobbies = [
   /*
   {
       title: "",
@@ -134,7 +129,7 @@ export const other = [
   */
   {
     title: "3D printing\nand modeling",
-    description: "Familiar with CAD and constrained modelling of dimensionally accurate models for hand-built 3D printer",
+    description: "Familiar with CAD and constrained modelling of dimensionally accurate models for hand-built 3D printer with Fusion360",
   },
   {
     title: "Electrical",
@@ -143,10 +138,6 @@ export const other = [
   {
     title: "Manufacturing",
     description: "Experience with workshop and power tools",
-  },
-  {
-    title: "Certificates",
-    description: "Certificates in Active Volunteering 2, First Aid/CPR, Responsible Service of Alcohol",
   },
   {
     title: "Art",

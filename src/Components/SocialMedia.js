@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import github from '../media/github.png';
 import linkedin from '../media/linkedin.png';
 
-export class Footer extends Component {
+export class SocialMedia extends Component {
   render() {
     return (
-      <div className="footer-container row">
+      <div className="socialmedia-container">
         <a href="https://github.com/hans-m-song">
           <img
             alt="GitHub"
